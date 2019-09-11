@@ -22,7 +22,7 @@ exports.up = function(knex) {
       tbl.string('transmissionType').nullable();
   
       // vin, string, not required(nullable)
-      tbl.string('statusOfTitle').nullable();
+      tbl.string('titleStatus').nullable();
     });
   };
   
